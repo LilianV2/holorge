@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#horloge{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: #f3c070;
+    border-radius: 150px;
+    margin: 180px auto 0;
+    box-shadow: 2px 2px 100px 15px #957132;
+    border: 3px solid black;
+}
+
+#heures{
+    width: 80px;
+    height: 2px;
+    background-color: black;
+}
+
+#minutes{
+    width: 140px;
+    height: 2px;
+    background-color: black;
+}
+
+#secondes{
+    width: 140px;
+    height: 1px;
+    background-color: black;
+}
+
+#heures, #minutes, #secondes{
+    transform-origin: left center;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
