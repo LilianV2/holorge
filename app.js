@@ -26,22 +26,3 @@ function horloge() {
 }
 
 window.setInterval(horloge, 1000)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
